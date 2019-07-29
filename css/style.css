@@ -1,0 +1,43 @@
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    color: #4f4140;
+    text-align: center;
+    margin-bottom: 50px; 
+}
+
+#grid {
+    width: 32vmin;
+    height: 32vminx;
+    margin: auto;
+    margin-top: 100px; 
+}
+
+.space { 
+    width: 10vmin;
+    height: 10vmin;
+    float: left;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 100px;
+ }
+
+ .space:hover {
+     background-color: aliceblue;
+ }
+
+ #space0, #space1, #space2, #space3, #space4, #space5 {
+    border-bottom: 8px solid #4f4140;
+ }
+ 
+ #space1, #space2, #space4, #space5, #space7, #space8 {
+    border-left: 8px solid #4f4140;
+ }
+ 
+ button {
+     margin-top: 100px;
+     padding: 20px;
+ }
